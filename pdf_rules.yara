@@ -450,22 +450,6 @@ rule BlackHole_v2 : PDF
 		$magic at 0 and $content
 }
 
-rule suspicious_js_array : PDF
-{
-    meta:
-        author = "Ricardo Dias"
-        version = "0.2"
-        description = "Suspicious long array in PDF. Used to find obfuscated code, ultimately sent to fromCharCode functions"
-        sample = "pastebin.com/fnpXREYu"
-		weight = 1
-
-    strings:
-        $type = "%PDF-"
-        $array = /(\(|\[)(.{1,4}(,|-)){64}/
-		
-    condition:
-        $type at 0 and $array
-}
 
 rule XDP_embedded_PDF : PDF
 {
