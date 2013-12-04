@@ -180,7 +180,7 @@ def info(pdf):
                 print "[-] Invalid XREF"
                 break
     except Exception, msg:
-        print "[!] PDFiD error: %s" % msg
+        print "[!] pdfinfo error: %s" % msg
         pass
 
     id(pdf)
