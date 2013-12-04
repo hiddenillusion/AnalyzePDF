@@ -27,7 +27,7 @@ example: python AnalyzePDF.py -m tmp/badness -y foo/pdf.yara bar/getsome.pdf
 # Date: 10-11-2012
 # Requirements:
 #	- Python 2.x
-#	- YARA (http://code.google.com/p/yara-project/)
+#	- YARA (http://plusvic.github.io/yara/)
 #	- pdfid (http://blog.didierstevens.com/programs/pdf-tools/)
 # Optional:	
 #	* This script will work without these but may miss some conditions to evaluate based on the missing data they would provide (i.e. - # of Pages) *
