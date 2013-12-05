@@ -389,7 +389,7 @@ rule invalid_xref_numbers : PDF
 			version = "0.1"
 			description = "The first entry in a cross-reference table is always free and has a generation number of 65,535"
 			notes = "This can be also be in a stream..."
-			weight = 3
+			weight = 1
 		
         strings:
                 $magic = { 25 50 44 46 }
