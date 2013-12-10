@@ -28,3 +28,7 @@ optional arguments:
                         score in the metadata section. (i.e. weight = 3)
 
 example: python AnalyzePDF.py -m tmp/badness -y foo/pdf.yara bar/getsome.pdf						
+
+Restrictions
+------------
+Free to use for non-commercial.  Give credit where credit is due.
