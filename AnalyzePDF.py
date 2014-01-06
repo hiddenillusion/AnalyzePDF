@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Analyzes PDF files by looking at their characteristics in order to add some intelligence into the determination of them being malicious or benign.
 
