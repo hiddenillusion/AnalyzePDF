@@ -11,21 +11,20 @@ Requirements
 	
 Usage
 -----
-$ AnalyzePDF.py [-h] [-m MOVE] [-y YARARULES] Path
+	$ AnalyzePDF.py [-h] [-m MOVE] [-y YARARULES] Path
 
-Produces a high level overview of a PDF to quickly determine if further
-analysis is needed based on it's characteristics
+	Prouces a high level overview of a PDF to quickly determine if further
+	analysis is needed based on it's characteristics
 
-positional arguments:
-  Path                  Path to directory/file(s) to be scanned
+	positional arguments:
+	Path                  Path to directory/file(s) to be scanned
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -m MOVE, --move MOVE  Directory to move files triggering YARA hits to
-  -y YARARULES, --yararules YARARULES
-                        Path to YARA rules. Rules should contain a weighted
-                        score in the metadata section. (i.e. weight = 3)
-					
+	optional arguments:
+	-h, --help            show this help message and exit
+	-m MOVE, --move MOVE  Directory to move files triggering YARA hits to
+	-y YARARULES, --yararules YARARULES
+							Path to YARA rules. Rules should contain a weighted
+							score in the metadata section. (i.e. weight = 3)					
 
 Restrictions
 ------------
